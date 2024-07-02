@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Navbar */
+.topBar{
+    padding: 7px;
+    background-color: #1b253e;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topBar p{
+    color: #fff;
+}
+
+.contactInNav{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#line{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(95, 110, 111);
+}
+
+.contactInNav li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactInNav li img{
+    width: 30px;
+}
+
+.contactInNav li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+nav{
+    position: sticky;
+    top:0px;
+}
+
+.bottomBar{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 175, 1);
+    color: white;
+}
+.logo{
+    background-color: #fff;
+    padding-right: 20px;
+}
+.logo img{
+    height: 75px;
+}
+.bottomBar ul{
+    padding-right: 10px;
+    width: 54%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.bottomBar ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    
+}
+.bottomBar ul li img{
+    width: 30px;
+    fill: #fff;
+}
+
+
+/* About section */
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.aboutMain1, .aboutMain2{
+    width: 100%;
+    display: flex;
+}
+.aboutSub1, .sub2{
+    background-image: url("https://www.thecolourmoon.com/assets/images/pattern.webp"); 
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.aboutSub1 h1, .sub2 h1{
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+.aboutSub1 p, .sub2 p{
+    font-size:18px;
+    margin-bottom: 20px;
+}
+.seperator{
+    margin-bottom: 50px;
+    overflow: none;
+    width: 320px;
+    height: 1px;
+    background-color: #9bcb5d;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.seperator hr{
+    width: 70%;
+    height: 5px;
+    background-color: #5baf00;
+    border-radius: 50px;
+}
+.aboutDesc{
+    font-size: 16px;
+}
+.aboutSub2, .sub1{
+    width: 50%;
+    height: 70vh;
+}
+.aboutSub2 img, .sub1 img{
+    width: 100%;
+    height: 100%;
+}
+.aboutMain2{
+    width: 100%;
+    display: flex;
+}
+.sub2{
+    background-color: #f4f4f4;
+    background-image: url("");
+}
+.iconDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconMain h4{
+    text-align: center;
+    font-size: 22px;
+    color: #04b000;
+    margin-top: 10px;
+}
+.iconMain h5{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.icon{
+    background-color: #1b253e;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Multiple industries Class */
+.mutliIndusDiv{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mutliIndusHeading h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.mutliIndusHeading p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.mutliIndusIcon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+.mutliIndusIcon div{
+    width: 233px;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* back-to-top */
+#back-to-top{
+    border: 1px solid rgb(49, 48, 48);
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    position: sticky;
+    bottom: 70px;
+    right: 0px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
