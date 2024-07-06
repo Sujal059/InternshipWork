@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .modeDiv{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            .lightModeDiv{
+                width: 50%;
+                height: 100%;
+                background-color: white;
+            }
+            .darkModeDiv{
+                width: 50%;
+                height: 100%;
+                background-color: black;
+            }
+        }
+        .optionDiv{
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            img{
+                width: 40px;
+            }
+        }
+    }
+    .top{
+        margin-top: 3rem;
+        text-align: center;
+        padding: 10px;
+        width: 80px;
+        height: auto;
+        background-color: rgb(0, 153, 255);
+        color: #ffffff;
+        font-size: 1.3rem;
+        font-weight: 400;
+        border-radius: 50px;
+    }
+    h1{
+        font-weight: bold;
+        font-size: 2.8rem;
+        line-height: 65px;
+        margin-bottom: 2rem;
+    }
+    h3{
+        font-weight: bold;
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .reviewDiv{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 2rem;
+        img{
+            width: 50px;
+        }
+        p{
+            color: rgba(0, 0, 0, 0.600);
+            font-weight: 400;
+            span{
+                color: black;
+                font-weight: bolder;
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .play{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        height: fit-content;
+        img{
+            width: 70%;
+        }
+        div{
+            background-color: rgb(0, 153, 255);
+            width: 30%;
+            height: 135px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h2{
+                color: #ffffff;
+                font-size: 1.5rem;
+            }
+            .div71{
+                width: 100%;
+                text-align: center;
+            }
+            .div28{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                width: 100%;
+                height: 60%;
+                text-align: center;
+                background-color: black;
+            }
+        }
+    }
+    .btnDiv{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        button{
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            height: 50px;
+            border-radius: 10px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            border: 2px solid black;
+        }
+        .exploreBtn{
+            background-color:  rgb(0, 0, 0);
+            color: #ffffff;
+        }
+    }
+}

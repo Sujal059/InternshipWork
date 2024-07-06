@@ -1,0 +1,212 @@
+/* HomePage */
+
+/* Service Section */
+.serviceMain{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.serviceDiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceDiv1 h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.serviceDiv1 p{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.serviceBtn{
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 5px
+}
+.btn1{
+    background: linear-gradient(45deg, #e7db3c 5%, #e74c3c 100%);
+}
+.btn2{
+    background: linear-gradient(45deg, #2ea3cc 5%, #2ecc71 100%);
+}
+.btn3{
+    background: linear-gradient(45deg, #b65984 5%, #9b59b6 100%);;
+}
+.btn4{
+    background: linear-gradient(45deg, #5b34db 5%, #3498db 100%);
+}   
+
+.serviceDiv2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.serviceSubDiv{
+    border-radius: 10px;
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.serviceSubDiv img{
+    width: 100px;
+}
+.serviceSubDiv a{
+    text-decoration: none;
+    color: black;
+}
+.serviceSubDiv div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* About Section */
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.aboutMain1, .aboutMain2{
+    width: 100%;
+    display: flex;
+}
+.aboutSub1, .sub2{
+    background-image: url("https://www.thecolourmoon.com/assets/images/pattern.webp"); 
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.aboutSub1 h1, .sub2 h1{
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+.aboutSub1 p, .sub2 p{
+    font-size:18px;
+    margin-bottom: 20px;
+}
+.seperator{
+    margin-bottom: 50px;
+    overflow: none;
+    width: 320px;
+    height: 1px;
+    background-color: #9bcb5d;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.seperator hr{
+    width: 70%;
+    height: 5px;
+    background-color: #5baf00;
+    border-radius: 50px;
+}
+.aboutDesc{
+    font-size: 16px;
+}
+.aboutSub2, .sub1{
+    width: 50%;
+    height: 70vh;
+}
+.aboutSub2 img, .sub1 img{
+    width: 100%;
+    height: 100%;
+}
+.aboutMain2{
+    width: 100%;
+    display: flex;
+}
+.sub2{
+    background-color: #f4f4f4;
+    background-image: url("");
+}
+.iconDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconMain h4{
+    text-align: center;
+    font-size: 22px;
+    color: #04b000;
+    margin-top: 10px;
+}
+.iconMain h5{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.icon{
+    background-color: #1b253e;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Multiple industries Class */
+.mutliIndusDiv{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mutliIndusHeading h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.mutliIndusHeading p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.mutliIndusIcon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+}
+.mutliIndusIcon div{
+    width: 233px;
+    height: 200px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}

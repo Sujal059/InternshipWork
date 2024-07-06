@@ -1,0 +1,88 @@
+/* Navbar */
+.topBar{
+    padding: 7px;
+    background-color: #1b253e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topBar p{
+    color: #fff;
+    margin-bottom: 0;
+}
+.topBar ul{
+    margin-bottom: 0;
+}
+
+.contactInNav{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+#line{
+    width: 1px;
+    height: 100%;
+    background-color: rgb(95, 110, 111);
+}
+
+.contactInNav li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contactInNav li img{
+    width: 30px;
+}
+
+.contactInNav li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+nav{
+    position: sticky;
+    top:0px;
+}
+
+.bottomBar{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 175, 1);
+    color: white;
+}
+.logo{
+    background-color: #fff;
+    padding-right: 20px;
+}
+.logo img{
+    height: 75px;
+}
+.bottomBar ul{
+    padding-right: 10px;
+    width: 54%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottomBar ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    color: #fff;
+}
+.far, .fas{
+    font-size: 30px;
+}
+
+.bottomBar ul li:hover{
+    color: yellow;
+    cursor: pointer;
+}
