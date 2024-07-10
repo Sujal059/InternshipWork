@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #f2fcfe, #e0fbfc);
+  }
+  
+  .register-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .register-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .register-btn {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 1rem;
+    align-self: center;
+  }
+  
+  .register-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+
+  .login-here {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .login-here:hover {
+    color: #4caf50;
+  }
